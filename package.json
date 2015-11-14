@@ -1,7 +1,7 @@
 {
   "name": "loopback-ibm-connections-profiles",
   "version": "0.0.0",
-  "description": "Loopback model definition and backend connector",
+  "description": "Loopback model definition and backend connector for IBM Connections Profiles",
   "homepage": "",
   "author": {
     "name": "Benjamin Kroeger",
