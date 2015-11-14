@@ -1,0 +1,41 @@
+{
+  "name": "loopback-ibm-connections-profiles",
+  "version": "0.0.0",
+  "description": "Loopback model definition and backend connector",
+  "homepage": "",
+  "author": {
+    "name": "Benjamin Kroeger",
+    "email": "benjamin.kroeger@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "lib",
+    "common"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    "loopback",
+    "ibmconnections",
+    "ic",
+    "profiles"
+  ],
+  "repository": "benkroeger/loopback-ibm-connections-profiles",
+  "dependencies": {
+    "lodash": "3.10.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-coveralls": "^0.1.0"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "license": "Apache-2.0"
+}

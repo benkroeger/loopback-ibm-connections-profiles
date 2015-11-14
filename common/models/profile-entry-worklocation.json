@@ -1,0 +1,42 @@
+{
+  "name": "ProfileEntryWorklocation",
+  "base": "Model",
+  "options": {
+    "idInjection": false
+  },
+  "properties": {
+    "id": false,
+    "skip_1": {
+      "type": "string",
+      "description": ""
+    },
+    "skip_2": {
+      "type": "string",
+      "description": ""
+    },
+    "address_1": {
+      "type": "string",
+      "description": ""
+    },
+    "address_2": {
+      "type": "string",
+      "description": ""
+    },
+    "city": {
+      "type": "string",
+      "description": ""
+    },
+    "state": {
+      "type": "string",
+      "description": ""
+    },
+    "postal_code": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

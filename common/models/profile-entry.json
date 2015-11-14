@@ -1,0 +1,222 @@
+{
+  "name": "ProfileEntry",
+  "base": "Model",
+  "options": {
+    "idInjection": false
+  },
+  "http": {
+    "path": "/profiles"
+  },
+  "properties": {
+    "id": false,
+    "key": {
+      "type": "string",
+      "description": ""
+    },
+    "guid": {
+      "type": "string",
+      "description": ""
+    },
+    "uid": {
+      "type": "string",
+      "description": ""
+    },
+    "userid": {
+      "id": true,
+      "type": "string",
+      "description": ["Unique ID that represents a specific person."]
+    },
+    "photo": {
+      "type": "string",
+      "description": "URL to the profile photo. Ignored on update requests"
+    },
+    "names": {
+      "type": "ProfileEntryNames",
+      "description": ""
+    },
+    "displayName": {
+      "type": "string",
+      "description": ""
+    },
+    "courtesyTitle": {
+      "type": "string",
+      "description": ""
+    },
+    "preferredFirstName": {
+      "type": "string",
+      "description": ""
+    },
+    "preferredLastName": {
+      "type": "string",
+      "description": ""
+    },
+    "nativeFirstName": {
+      "type": "string",
+      "description": ""
+    },
+    "nativeLastName": {
+      "type": "string",
+      "description": ""
+    },
+    "alternateLastname": {
+      "type": "string",
+      "description": ""
+    },
+    "url": {
+      "type": "string",
+      "description": ""
+    },
+    "pronounciation": {
+      "type": "string",
+      "description": ""
+    },
+    "email": {
+      "type": "string",
+      "description": ""
+    },
+    "groupwareEmail": {
+      "type": "string",
+      "description": ""
+    },
+    "blogUrl": {
+      "type": "string",
+      "description": ""
+    },
+    "timezone": {
+      "type": "string",
+      "description": ""
+    },
+    "preferredLanguage": {
+      "type": "string",
+      "description": ""
+    },
+    "organizationTitle": {
+      "type": "string",
+      "description": ""
+    },
+    "orgId": {
+      "type": "string",
+      "description": ""
+    },
+    "employeeTypeDesc": {
+      "type": "string",
+      "description": ""
+    },
+    "employeeTypeCode": {
+      "type": "string",
+      "description": ""
+    },
+    "jobResp": {
+      "type": "string",
+      "description": ""
+    },
+    "workLocation": {
+      "type": "ProfileEntryWorklocation",
+      "description": ""
+    },
+    "workLocationCode": {
+      "type": "string",
+      "description": ""
+    },
+    "countryCode": {
+      "type": "string",
+      "description": ""
+    },
+    "bldgId": {
+      "type": "string",
+      "description": ""
+    },
+    "floor": {
+      "type": "string",
+      "description": ""
+    },
+    "officeName": {
+      "type": "string",
+      "description": ""
+    },
+    "telephoneNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "mobileNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "faxNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "ipTelephoneNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "pagerNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "pagerId": {
+      "type": "string",
+      "description": ""
+    },
+    "pagerType": {
+      "type": "string",
+      "description": ""
+    },
+    "pagerServiceProvider": {
+      "type": "string",
+      "description": ""
+    },
+    "tags": {
+      "type": ["string"],
+      "description": "List of tags applied to this entry"
+    },
+    "experience": {
+      "type": "string",
+      "description": ""
+    },
+    "description": {
+      "type": "string",
+      "description": ""
+    },
+    "managerUid": {
+      "type": "string",
+      "description": ""
+    },
+    "isManager": {
+      "type": "string",
+      "description": ""
+    },
+    "employeeNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "deptNumber": {
+      "type": "string",
+      "description": ""
+    },
+    "deptTitle": {
+      "type": "string",
+      "description": ""
+    },
+    "shift": {
+      "type": "string",
+      "description": ""
+    },
+    "lastUpdate": {
+      "type": "date",
+      "description": ""
+    },
+    "profileType": {
+      "type": "string",
+      "description": ""
+    },
+    "extattr": {
+      "type": ["ProfileEntryExtattr"],
+      "description": "List of profile extension attributes for this entry"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

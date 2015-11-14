@@ -1,0 +1,22 @@
+{
+  "name": "ProfileEntryNames",
+  "base": "Model",
+  "options": {
+    "idInjection": false
+  },
+  "properties": {
+    "id": false,
+    "surname": {
+      "type": "string",
+      "description": ""
+    },
+    "givenName": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

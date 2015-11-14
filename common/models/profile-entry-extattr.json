@@ -1,0 +1,28 @@
+{
+  "name": "ProfileEntryExtattr",
+  "base": "Model",
+  "options": {},
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "",
+      "id": true
+    },
+    "key": {
+      "type": "string",
+      "description": ""
+    },
+    "value": {
+      "type": "string",
+      "description": ""
+    },
+    "dataType": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
