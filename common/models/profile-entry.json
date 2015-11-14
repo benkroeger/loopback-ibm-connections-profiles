@@ -24,7 +24,7 @@
     "userid": {
       "id": true,
       "type": "string",
-      "description": ["Unique ID that represents a specific person."]
+      "description": "Unique ID that represents a specific person"
     },
     "photo": {
       "type": "string",
@@ -215,6 +215,7 @@
       "description": "List of profile extension attributes for this entry"
     }
   },
+  "hidden": ["key", "guid"],
   "validations": [],
   "relations": {},
   "acls": [],
