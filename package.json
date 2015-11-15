@@ -9,8 +9,7 @@
     "url": ""
   },
   "files": [
-    "lib",
-    "common"
+    "lib"
   ],
   "main": "lib/index.js",
   "keywords": [
@@ -21,6 +20,7 @@
   ],
   "repository": "benkroeger/loopback-ibm-connections-profiles",
   "dependencies": {
+    "ibm-connections-profiles-service": "1.0.0",
     "lodash": "3.10.1"
   },
   "devDependencies": {
