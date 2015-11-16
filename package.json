@@ -20,7 +20,7 @@
   ],
   "repository": "benkroeger/loopback-ibm-connections-profiles",
   "dependencies": {
-    "ibm-connections-profiles-service": "1.0.0",
+    "ibm-connections-profiles-service": "1.0.2",
     "lodash": "3.10.1"
   },
   "devDependencies": {
