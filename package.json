@@ -21,7 +21,8 @@
   "repository": "benkroeger/loopback-ibm-connections-profiles",
   "dependencies": {
     "ibm-connections-profiles-service": "1.0.3",
-    "lodash": "3.10.1"
+    "lodash": "3.10.1",
+    "request": "2.67.0"
   },
   "devDependencies": {
     "gulp": "^3.6.0",
