@@ -1,6 +1,6 @@
 {
   "name": "loopback-ibm-connections-profiles",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Loopback model definition and backend connector for IBM Connections Profiles",
   "homepage": "",
   "author": {
@@ -20,7 +20,7 @@
   ],
   "repository": "benkroeger/loopback-ibm-connections-profiles",
   "dependencies": {
-    "ibm-connections-profiles-service": "1.0.2",
+    "ibm-connections-profiles-service": "1.0.3",
     "lodash": "3.10.1"
   },
   "devDependencies": {
